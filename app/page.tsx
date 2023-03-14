@@ -1,5 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import FirstSection from "@/app/components/firstSection";
+import Header from "@/app/components/header/Header";
+import SecondSection from "@/app/components/secondSection/SecondSection";
 
 export const metadata = {
   title: 'Главная | Airglide',
@@ -16,7 +18,9 @@ export const metadata = {
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header/>
       <FirstSection/>
+      <SecondSection/>
     </main>
   )
 }
