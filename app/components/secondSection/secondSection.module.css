@@ -1,0 +1,120 @@
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.production_time {
+    width: 100%;
+    background-color: #0d0d0d;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-image: url("production-time_bg.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.production_title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.production_title span:first-child {
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.production_title span:nth-child(2) {
+    color: #e0fb00;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.production_main {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.production_main::before {
+    content: '';
+    background-image: url("production-time_dots.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 664px;
+    height: 511px;
+    position: absolute;
+}
+
+.production_quots {
+    /*background-image: url("production-time_dots.svg");*/
+}
+
+.production_text {
+    width: 50%;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.53;
+    margin-right: 50px;
+}
+
+.production_text p {
+    padding-bottom: 20px;
+}
+
+.production_text span {
+    color: #fff;
+    font-style: italic;
+    opacity: .5;
+}
+
+.production_numbers {
+    width: 40%;
+}
+
+.production_numbers_item {
+    display: flex;
+    margin-bottom: 60px;
+    height: 80px;
+    align-items: center;
+}
+
+.production_numbers_count {
+    color: #e0fb00;font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    width: 105px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.production_numbers_right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.production_numbers_days {
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.production_numbers_type {
+    color: #999;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
