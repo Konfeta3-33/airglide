@@ -3,6 +3,7 @@ import FirstSection from "@/app/components/firstSection";
 import Header from "@/app/components/header/Header";
 import SecondSection from "@/app/components/secondSection/SecondSection";
 import ThirdSection from "@/app/components/thirdSection/ThirdSection";
+import Footer from "@/app/components/footer/Footer";
 
 export const metadata = {
   title: 'Главная | Airglide',
@@ -23,6 +24,7 @@ export default function Home() {
       <FirstSection/>
       <SecondSection/>
       <ThirdSection/>
+      <Footer/>
     </main>
   )
 }
